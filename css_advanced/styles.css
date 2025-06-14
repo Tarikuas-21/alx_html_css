@@ -146,6 +146,39 @@
             margin: 0;
             font-size: 14px;
         }
+         .footer {
+            background-color: #1e1e1e; /* Dark background */
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+        }
+        .footer .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+        }
+        .footer .logo img {
+            width: 30px; /* Adjust logo size */
+            margin-right: 10px;
+        }
+        .footer .socials {
+            display: flex;
+            gap: 20px;
+        }
+        .footer .socials a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px; /* Adjust social icon size */
+        }
+        .footer .copyright {
+            text-align: center;
+            width: 100%;
+            font-size: 14px;
+            color: #ccc; /* Light text for copyright */
+            margin-top: 10px; /* Space above copyright */
+        }
     </style>
 </head>
 <body>
@@ -265,5 +298,17 @@
         </div>
     </div>
 </section>
+<footer class="footer">
+    <div class="logo">
+        <img src="smile-icon.png" alt="Smile School Logo">
+        SmileSchool
+    </div>
+    <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </div>
+</footer>
+<div class="copyright">© SmileSchool 2023</div>
 </body>
 </html>
