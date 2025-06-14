@@ -112,6 +112,39 @@
  .membership .item p {
             margin: 5px 0;
             font-size: 14px;
+        } .faq-section {
+            background-color: #f9f9f9; /* Light background for FAQ */
+            color: #333; /* Dark text for readability */
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .faq-section h2 {
+            font-size: 24px;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        .faq {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap; /* Allows wrapping on smaller screens */
+        }
+        .faq-item {
+            background: #fff; /* White background for FAQ items */
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px; /* Fixed width for FAQ items */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: left; /* Left-align text */
+        }
+        .faq-item h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .faq-item p {
+            margin: 0;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -211,6 +244,26 @@
         </div>
     </div>
     <a href="#" class="cta">REGISTER FOR FREE</a>
+</section><section class="faq-section">
+    <h2>F.A.Q.</h2>
+    <div class="faq">
+        <div class="faq-item">
+            <h3>How does this work?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How does this work?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How does this work?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How does this work?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
 </section>
 </body>
 </html>
