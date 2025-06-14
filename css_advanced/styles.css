@@ -50,47 +50,37 @@
             font-size: 24px;
             margin: 20px 0;
         }
-        .profiles {
+        .profiles, .videos {
             display: flex;
             justify-content: center;
             gap: 30px;
+            flex-wrap: wrap; /* Allows wrapping on smaller screens */
         }
-        .profile {
+        .profile, .video {
             text-align: center;
+            background: #fff; /* Video card background */
+            border-radius: 10px;
+            padding: 20px;
+            color: #333; /* Text color for video cards */
+            width: 200px; /* Fixed width for video cards */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
-        .profile img {
-            border-radius: 50%;
-            width: 100px;
-            height: 100px;
-            margin-bottom: 10px;
+        .profile img, .video img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
         }
-        .profile h3 {
+        .video h3 {
             margin: 10px 0 5px;
             font-size: 18px;
         }
-        .profile p {
-            margin: 0;
+        .video p {
+            margin: 5px 0;
             font-size: 14px;
-            color: #ccc;
         }
-        .quote-section {
-            background-color: #a03cdb; /* Purple background */
-            color: #fff; /* White text */
-            padding: 40px 20px;
-            text-align: center;
-            border-radius: 10px;
-            margin: 20px auto;
-            max-width: 600px; /* Centering */
-        }
-        .quote-section p {
-            font-size: 18px;
-            margin: 0 0 15px;
-            font-style: italic;
-        }
-        .quote-section .person-name {
-            font-size: 16px;
-            font-weight: bold;
-            margin: 0;
+        .video .stars {
+            margin: 5px 0;
+            color: #ffcc00; /* Star color */
         }
     </style>
 </head>
@@ -137,6 +127,38 @@
     <p>“Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!”</p>
     <p class="person-name">Person Name<br>Weather Presenter</p>
 </div>
+
+<section class="section videos">
+    <h2>Most popular tutorials</h2>
+    <div class="video">
+        <img src="diagonal-smile.jpg" alt="Diagonal Smile">
+        <h3>Diagonal Smile</h3>
+        <p class="stars">⭐⭐⭐⭐⭐</p>
+        <p>Phillip Massey</p>
+        <p>8 min</p>
+    </div>
+    <div class="video">
+        <img src="sad-smile.jpg" alt="Sad Smile">
+        <h3>Sad Smile</h3>
+        <p class="stars">⭐⭐⭐⭐</p>
+        <p>Phillip Massey</p>
+        <p>6 min</p>
+    </div>
+    <div class="video">
+        <img src="natural-smile.jpg" alt="Natural Smile">
+        <h3>Natural Smile</h3>
+        <p class="stars">⭐⭐⭐⭐⭐</p>
+        <p>Phillip Massey</p>
+        <p>10 min</p>
+    </div>
+    <div class="video">
+        <img src="happy-smile.jpg" alt="Happy Smile">
+        <h3>Happy Smile</h3>
+        <p class="stars">⭐⭐⭐⭐⭐</p>
+        <p>Phillip Massey</p>
+        <p>8 min</p>
+    </div>
+</section>
 
 </body>
 </html>
