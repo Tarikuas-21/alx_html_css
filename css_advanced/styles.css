@@ -73,6 +73,25 @@
             font-size: 14px;
             color: #ccc;
         }
+        .quote-section {
+            background-color: #a03cdb; /* Purple background */
+            color: #fff; /* White text */
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 600px; /* Centering */
+        }
+        .quote-section p {
+            font-size: 18px;
+            margin: 0 0 15px;
+            font-style: italic;
+        }
+        .quote-section .person-name {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -113,6 +132,11 @@
         </div>
     </div>
 </section>
+
+<div class="quote-section">
+    <p>“Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!”</p>
+    <p class="person-name">Person Name<br>Weather Presenter</p>
+</div>
 
 </body>
 </html>
